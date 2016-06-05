@@ -6,4 +6,5 @@ IMAGE_INSTALL += " \
 	dropbear \
 	ssh \
 	throttle2pwm \
+	i2c-tools\
 	"
