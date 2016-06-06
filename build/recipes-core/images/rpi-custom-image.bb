@@ -4,7 +4,10 @@ include recipes-core/images/rpi-hwup-image.bb
 IMAGE_INSTALL += " \
 	pi-blaster \
 	dropbear \
-	ssh \
 	throttle2pwm \
-	i2c-tools\
+	i2c-tools \
+	userland \
+	rtl8188eu \
+	wireless-tools \
+	wpa-supplicant \
 	"
